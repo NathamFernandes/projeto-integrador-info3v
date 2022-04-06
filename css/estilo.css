@@ -1,0 +1,470 @@
+/***** Estilo de TAGS PADRÃO *****/
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 30px;
+    background-color: aliceblue;
+}
+
+footer {
+    border-top: solid 2px black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../imagens/Capa-Footer.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-indent: 20px;
+    margin-left: 12.3%;
+    margin-right: -0.3%;
+    margin-bottom: -1%;
+}
+
+h2, h3, h4 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px red;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+td {
+    position: relative;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    color: grey;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+/***** Estilo de IDS *****/
+
+#sidenav_membro_1 {
+    display: block;
+}
+
+#sidenav_membro_1:hover {
+    background-color: darkred;
+    transition: all 0.4s;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-bottom: 1%;
+    padding-left: 15px;
+    display: block;
+}
+
+#teste-ancora {
+    text-align: right;
+}
+
+#texto-full {
+    margin-left: 240px;
+}
+
+#textogeral  {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#tabela-cima {
+    border-bottom: 3px solid lightgrey;
+}
+
+#curiosidade {
+    color: gray;
+    font-style: italic;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+#referencias {
+    color: coral;
+    text-decoration: none;
+}
+
+#imgmeio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#imagem-tabela {
+    width: 150px;
+    height: 150px;
+}
+
+#menudeopcoes{
+    background-image: url(../imagens/header-capa3.png);
+    background-position: center;
+    align-items: ;
+    border-bottom: 5px solid black;
+    margin-left: -10px;
+    margin-right: -8.3px;
+    margin-top: -10px;
+    width: auto;
+    height: 130px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#guerras_brasileiras {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+#elementos_header {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+#header_paginas_conteudo {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+    text-shadow: 1px 1px 1px red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ancor-header {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(19, 19, 19);
+    width: 160px;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(240, 236, 236);
+    border-color: aqua;
+    border:outset 2px rgb(233, 233, 219);
+}
+
+#ancor-header:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.4s;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#menu{
+    display: inline-block;
+}
+
+#menu li{
+    margin-left: 10px;
+}
+
+#menu li a{
+    display: block;
+    padding: 10px;
+    background: tomato;
+}
+
+#mySidenav a {
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: block;
+}
+
+#sidenav_voltar_topo {
+    bottom: 20px;
+    position: fixed;
+}
+
+#sidenav_voltar_topo:hover {
+    background-color: grey;
+    transition: all .3s;
+    padding-left: 5px;
+}
+
+#img-lado-titulo {
+    display: block; 
+    float:right;
+    margin-top: -20px;
+    height: 90px;
+    width: 75px;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+/***** Estilo de CLASS *****/
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding: 20px;
+    overflow: auto;
+    display: block;
+}
+
+/***** Lógica da BARRA TEMPORAL *****/
+
+.bola-linha {
+    font-size: 50px;
+    color: darkred;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bola-linha-click {
+    font-size: 50px;
+    color: rgb(1, 173, 1);;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ancora-certa {
+    text-decoration: none;
+    color: darkred;
+}
+
+.ancora-certa-click {
+    text-decoration: none;
+    color: rgb(1, 173, 1);;
+}
+
+#linha-verde::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    border: 3px solid rgb(1, 173, 1);;
+    width: 100%;
+    z-index: -1;
+}
+
+#linha-vermelha::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    border: 3px solid darkred;
+    width: 100%;
+    z-index: -1;
+}
+
+#imgdire {
+    float: right;
+    padding-left: 100px;
+    margin-right: 10%;
+}
+
+#imagem-index {
+    width: 600px;
+    height: 330px;
+}
+
+#imagem-index:hover {
+    width: 650px;
+    height: 360px;
+    transition: all 0.5s;
+}
+
+#div-index {
+    width: 100%;
+    height: 450px;
+    align-items: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.imagem-esquerda {
+    float: left;
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+.imagem-direita {
+    float: right;
+    margin-right: 18%;
+    margin-top: 3%;
+}
+
+#texto-esquerda{
+    float: left;
+    margin-left: 24%;
+    margin-top: 10%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 8px red;
+    text-decoration: none;
+}
+
+#texto-direita{
+    float: right;
+    margin-right: 30%;
+    margin-top: 10%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 8px red;
+    text-decoration: none;
+}
+
+#texto-esquerda:hover {
+    color: white;
+}
+
+#texto-direita:hover {
+    color: white;
+}
+
+#testeporra {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#nome_principal {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px red;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+
+
+.question{
+	font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #297;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #3a8;
+}
+
+#quiz_estilo {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    max-width: 1000px;
+    text-align: center;
+    position: flex;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1000px;
+    height: 750px;
+    border: solid 3px black;
+    background-color: lightskyblue;
+    padding-top: 20px;
+}
+
+
+
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #CC3300;
+    max-width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px black;
+    position: flex;
+    text-align: center;
+}
+
+
+.enviar {
+    background-color: #66FFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
